@@ -6,5 +6,5 @@ def hello_lulu():
     return 'Hello NYC'
 
 if __name__ == '__main__':
-    app_lulu.run(debug=True)
+    app_lulu.run(host='0.0.0.0')
 
